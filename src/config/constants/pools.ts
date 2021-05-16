@@ -1,0 +1,133 @@
+import tokens from './tokens'
+import { PoolConfig, PoolCategory } from './types'
+
+const pools: PoolConfig[] = [
+  {
+    sousId: 0,
+    stakingToken: tokens.cake,
+    earningToken: tokens.cake,
+    contractAddress: {
+      97: '',
+      56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    tokenPerBlock: '10',
+    sortOrder: 1,
+    isFinished: false,
+  },
+  {
+    sousId: 14,
+    stakingToken: tokens.tendie,
+    earningToken: tokens.dot,
+    contractAddress: {
+      97: '',
+      56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    tokenPerBlock: '10',
+    sortOrder: 999,
+    isFinished: false,
+  },
+  {
+    sousId: 13,
+    stakingToken: tokens.tendie,
+    earningToken: tokens.usdc,
+    contractAddress: {
+      97: '',
+      56: '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    tokenPerBlock: '10',
+    sortOrder: 999,
+    isFinished: false,
+  },
+  {
+    sousId: 12,
+    stakingToken: tokens.tendie,
+    earningToken: tokens.dai,
+    contractAddress: {
+      97: '',
+      56: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    tokenPerBlock: '10',
+    sortOrder: 999,
+    isFinished: false,
+  },
+  {
+    sousId: 11,
+    stakingToken: tokens.tendie,
+    earningToken: tokens.eth,
+    contractAddress: {
+      97: '',
+      56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    tokenPerBlock: '10',
+    sortOrder: 999,
+    isFinished: false,
+  },
+  {
+    sousId: 10,
+    stakingToken: tokens.tendie,
+    earningToken: tokens.btcb,
+    contractAddress: {
+      97: '',
+      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    tokenPerBlock: '10',
+    sortOrder: 999,
+    isFinished: false,
+  },
+  {
+    sousId: 9,
+    stakingToken: tokens.tendie,
+    earningToken: tokens.usdt,
+    contractAddress: {
+      97: '',
+      56: '0x55d398326f99059ff775485246999027b3197955',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    tokenPerBlock: '10',
+    sortOrder: 999,
+    isFinished: false,
+  },
+  {
+    sousId: 8,
+    stakingToken: tokens.tendie,
+    earningToken: tokens.wbnb,
+    contractAddress: {
+      97: '',
+      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    tokenPerBlock: '10',
+    sortOrder: 999,
+    isFinished: false,
+  },
+  {
+    sousId: 7,
+    stakingToken: tokens.tendie,
+    earningToken: tokens.busd,
+    contractAddress: {
+      97: '',
+      56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    tokenPerBlock: '10',
+    sortOrder: 999,
+    isFinished: false,
+  },
+]
+
+export default pools
